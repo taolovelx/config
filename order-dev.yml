@@ -13,12 +13,12 @@ spring:
     username: admin
     password: 123456  
   redis:
-    host: 192.168.1.114
+    host: 192.168.1.118
     port: 6379
-eureka:
-  client:
-    service-url: 
-      defaultZone: http://localhost:8761/eureka/
+# eureka:
+#   client:
+#     service-url: 
+#       defaultZone: http://localhost:8761/eureka/
 #PRODUCT:
 #  ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
